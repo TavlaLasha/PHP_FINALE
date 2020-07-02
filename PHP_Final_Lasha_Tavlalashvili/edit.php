@@ -52,8 +52,8 @@
             <form action="" method="post">
                 <h2>Edit Vacation</h2>
                 <input type="hidden" value="<?=$id; ?>" name="id">
-                Title - <input type="text" name="title" value="<?=$title; ?>">
-                Description - <textarea name="description" id="" cols="30" rows="10"><?=$description; ?></textarea><br>
+                Title - <input type="text" name="title" value="<?=$title; ?>"><br>
+                Description -<br><textarea name="description" id="" cols="30" rows="10"><?=$description; ?></textarea><br>
                 Date - <input type="date" name="date" value="<?=$date; ?>"><br>
 
                 <input type="submit" value="Edit" name="edit">
